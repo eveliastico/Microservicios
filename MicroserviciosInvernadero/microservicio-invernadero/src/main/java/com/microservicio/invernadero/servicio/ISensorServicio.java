@@ -1,6 +1,6 @@
-package com.microservicio.sensor.servicio;
+package com.microservicio.invernadero.servicio;
 
-import com.microservicio.sensor.entidades.Sensor;
+import com.microservicio.invernadero.entidades.Sensor;
 
 import java.util.List;
 

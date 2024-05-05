@@ -5,8 +5,8 @@
     <file url="file://$PROJECT_DIR$/microservicio-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicio-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicio-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicio-inv/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicio-invernadero/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicio-sensor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

@@ -7,11 +7,11 @@
 		<artifactId>MicroserviciosInvernadero</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.microservicio.sensor</groupId>
-	<artifactId>microservicio-sensor</artifactId>
+	<groupId>com.microservicio.invernadero</groupId>
+	<artifactId>microservicio-inv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservicio-sensor</name>
-	<description>Spring boot Microservicio Sensor</description>
+	<name>microservicio-invernadero</name>
+	<description>Spring boot Microservicio Invernadero</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>

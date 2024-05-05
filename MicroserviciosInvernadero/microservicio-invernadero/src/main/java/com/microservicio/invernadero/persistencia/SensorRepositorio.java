@@ -1,7 +1,6 @@
-package com.microservicio.sensor.persistencia;
+package com.microservicio.invernadero.persistencia;
 
-import com.microservicio.sensor.entidades.Sensor;
-import org.springframework.data.jpa.repository.Query;
+import com.microservicio.invernadero.entidades.Sensor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

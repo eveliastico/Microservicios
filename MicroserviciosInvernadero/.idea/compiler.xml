@@ -9,7 +9,7 @@
         <module name="microservicio-config" />
         <module name="microservicio-alarma" />
         <module name="microservicio-eureka" />
-        <module name="microservicio-sensor" />
+        <module name="microservicio-inv" />
         <module name="microservicio-invernadero" />
         <module name="microservicio-gateway" />
       </profile>
@@ -21,8 +21,8 @@
       <module name="microservicio-config" options="-parameters" />
       <module name="microservicio-eureka" options="-parameters" />
       <module name="microservicio-gateway" options="-parameters" />
+      <module name="microservicio-inv" options="-parameters" />
       <module name="microservicio-invernadero" options="-parameters" />
-      <module name="microservicio-sensor" options="-parameters" />
     </option>
   </component>
 </project>

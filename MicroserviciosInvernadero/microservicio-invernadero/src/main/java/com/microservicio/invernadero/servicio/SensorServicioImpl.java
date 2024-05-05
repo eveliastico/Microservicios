@@ -1,7 +1,7 @@
-package com.microservicio.sensor.servicio;
+package com.microservicio.invernadero.servicio;
 
-import com.microservicio.sensor.entidades.Sensor;
-import com.microservicio.sensor.persistencia.SensorRepositorio;
+import com.microservicio.invernadero.entidades.Sensor;
+import com.microservicio.invernadero.persistencia.SensorRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

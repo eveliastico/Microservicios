@@ -1,7 +1,7 @@
-package com.microservicio.sensor.controlador;
+package com.microservicio.invernadero.controlador;
 
-import com.microservicio.sensor.entidades.Sensor;
-import com.microservicio.sensor.servicio.ISensorServicio;
+import com.microservicio.invernadero.entidades.Sensor;
+import com.microservicio.invernadero.servicio.ISensorServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,6 @@
-package com.microservicio.sensor.entidades;
+package com.microservicio.invernadero.entidades;
 
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Data;
 
 @Data

@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: msvc-invernadero
+    name: msvc-sensor
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/invernaderosdb
+    url: jdbc:mysql://localhost:3306/sensoresdb
     username: root
     password: admin
   jpa:

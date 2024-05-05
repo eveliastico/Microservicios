@@ -22,9 +22,9 @@
     <module>microservicio-gateway</module>
     <module>microservicio-eureka</module>
     <module>microservicio-config</module>
-    <module>microservicio-sensor</module>
-    <module>microservicio-alarma</module>
     <module>microservicio-invernadero</module>
+    <module>microservicio-alarma</module>
+    <module>microservicio-inv</module>
   </modules>
 
   <properties>

@@ -3,10 +3,14 @@ server:
 
 spring:
   application:
-    name: msvc-sensor
+    name: msvc-invernadero
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
+<<<<<<< Updated upstream:MicroserviciosInvernadero/microservicio-sensor/src/main/resources/application.yml
     url: jdbc:mysql://localhost:3307/sensoresdb
+=======
+    url: jdbc:mysql://localhost:3307/invernaderosdb
+>>>>>>> Stashed changes:MicroserviciosInvernadero/microservicio-inv/src/main/resources/application.yml
     username: root
     password: admin
   jpa:
