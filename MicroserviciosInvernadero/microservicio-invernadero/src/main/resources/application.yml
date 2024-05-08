@@ -22,5 +22,3 @@ eureka:
     hostname: localhost
   client:
     defaultZone: http://localhost/8761/eureka
-
-

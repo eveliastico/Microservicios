@@ -34,4 +34,5 @@ public class invernaderoControlador {
     public ResponseEntity<?> findSensoresByIdInvernadero(@PathVariable Long idInvernadero){
         return ResponseEntity.ok(invernaderoServicio.findSensorByIdInvernadero(idInvernadero));
     }
+    
 }
