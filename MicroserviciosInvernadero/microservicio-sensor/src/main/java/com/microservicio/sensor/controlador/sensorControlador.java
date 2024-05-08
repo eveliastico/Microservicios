@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8090/api/sensor/**")
 @RequestMapping("/api/sensor")
 public class sensorControlador {
 
@@ -25,13 +24,21 @@ public class sensorControlador {
 
 
     @GetMapping("/all")
-    public List<Sensor> findAllSensor(){
-        return sensorServicio.findAll();
+    public ResponseEntity<?> findAllSensor(){
+        return ResponseEntity.ok(sensorServicio.findAll());
     }
 
     @GetMapping("/search/{id}")
     public ResponseEntity<?> findById(@PathVariable Long id){
         return ResponseEntity.ok(sensorServicio.findById(id));
+    }
+
+    /*
+    * Este Get permite obtener todos los sensores asosiados al id del invernadero ingresado.
+    * */
+    @GetMapping("search-by-invernadero/{idInvernadero}")
+    public ResponseEntity<?> findByIdInvernadero(@PathVariable Long idInvernadero){
+        return ResponseEntity.ok(sensorServicio.findByIdInvernadero(idInvernadero));
     }
 
 
