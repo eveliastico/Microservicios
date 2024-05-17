@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro sensor</title>
+    <link rel="stylesheet" href="RegistroSensor.css">
+    
+</head>
+
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="../RegistroInvernadero/RegistroInvernadero.html">Registro Invernadero</a></li>
+        <li><a href="RegistroSensor.html">Registro Sensor</a></li>
+        <li><a href="../TablaDatosSensores/DatosSensores.html">Visualización de Datos</a></li>
+    </ul>
+</nav>
+    <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+
+            <form action="https://formbold.com/s/FORM_ID" method="POST">
+                <div class="formbold-form-title">
+                    <h1 class="">Registro De Sensor</h1>
+                    <p>
+                        Sistema Invernadero
+                    </p>
+                </div>
+
+                <div class="formbold-input-flex">
+                    <div>
+                        <label for="id_invernadero" class="formbold-form-label">ID Invernadero</label>
+                        <select name="id_invernadero" id="id_invernadero" class="formbold-form-input">
+                        </select>
+                    </div>
+                    <div>
+                        <label for="marca" class="formbold-form-label"> Marca de Sensor </label>
+                        <input type="text" name="marca" id="marca" class="formbold-form-input" />
+                    </div>
+                </div>
+
+                <button class="formbold-btn">Registrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="RegistroSensor.js"></script>
+</body>
+
+</html>
