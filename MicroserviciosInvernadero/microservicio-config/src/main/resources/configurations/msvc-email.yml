@@ -1,0 +1,26 @@
+server:
+    port: 8094
+
+spring:
+    application:
+        name: msvc-email
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: jorgeaestrada45@gmail.com
+        password: clcqsexousuadtwh
+        properties:
+            mail:
+                smtp:
+                    starttls:
+                        enable: true
+                        required: true
+                    auth: true
+                    connectiontimeout: 5000
+                    timeout: 5000
+                    writetimeout: 5000
+eureka:
+    instance:
+        hostname: localhost
+    client:
+        defaultZone: http://localhost/8761/eureka

@@ -25,6 +25,7 @@
     <module>microservicio-sensor</module>
     <module>microservicio-alarma</module>
     <module>microservicio-invernadero</module>
+    <module>microservicio-email</module>
   </modules>
 
   <properties>

@@ -3,10 +3,14 @@ package com.microservicio.alarma.negocio;
 import com.google.gson.Gson;
 import com.microservicio.alarma.dto.SensorDTO;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class ColaRabbitMQ {
+
+    @Autowired
+    MailManager mailManager;
 
     Gson gson;
     @RabbitListener(queues = "queue1")
@@ -14,14 +18,8 @@ public class ColaRabbitMQ {
         //Se verifica que la temperatura y humedad esten por debajo del rango limite
         gson = new Gson();
         SensorDTO sensor = gson.fromJson(message, SensorDTO.class);
-//        System.out.println(sensor.toString());
-        if(sensor.getHumedad() > sensor.getHumedadLimite()){
-            System.out.println("HUMEDAD ALTAAA: "+sensor.toString());
-        }
-        if(sensor.getTemperatura() > sensor.getTemperaturaLimite()){
-            System.out.println("TEMPERATURA ALTAAA: "+sensor.toString());
-        }
-        if(sensor.getTemperatura() > sensor.getTemperaturaLimite() && sensor.getHumedad() > sensor.getHumedadLimite()){
+        if(sensor.getTemperatura() > sensor.getTemperaturaLimite() || sensor.getHumedad() > sensor.getHumedadLimite()){
+            mailManager.enviarEmail("jorge.estrada204169@potros.itson.edu.mx", "ALARMA: Anomalias en los datos", sensor.toString());
             System.out.println("TEMPERATURA Y HUMEDAD ALTAAASSS: "+sensor.toString());
         }
 
