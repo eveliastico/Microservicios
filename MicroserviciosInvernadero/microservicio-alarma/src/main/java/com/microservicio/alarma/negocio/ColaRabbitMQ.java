@@ -24,7 +24,7 @@ public class ColaRabbitMQ {
         if(sensor.getTemperatura() > sensor.getTemperaturaLimite() && sensor.getHumedad() > sensor.getHumedadLimite()){
             System.out.println("TEMPERATURA Y HUMEDAD ALTAAASSS: "+sensor.toString());
         }
-        
+
     }
 
 }
