@@ -1,0 +1,6 @@
+com\invernadero\gateway\Gateway.class
+com\invernadero\socketSensores\SocketEnvioDatos.class
+com\invernadero\entidades\Sensor.class
+Prueba.class
+Prueba$1.class
+com\invernadero\negocio\ConversorSensor.class

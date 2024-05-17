@@ -1,0 +1,6 @@
+dominio\Sensor.class
+com\invernadero\socketsensores\negocio\SocketEnvioDatos.class
+com\invernadero\socketsensores\Prueba.class
+com\invernadero\socketsensores\negocio\Gateway.class
+com\invernadero\socketsensores\negocio\RabbitGateway.class
+com\invernadero\socketsensores\SocketSensores.class
