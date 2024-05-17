@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicio-config" />
+        <module name="microservicio-invernadero" />
         <module name="microservicio-alarma" />
         <module name="microservicio-eureka" />
         <module name="microservicio-sensor" />
-        <module name="microservicio-invernadero" />
+        <module name="microservicio-email" />
         <module name="microservicio-gateway" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservicio-alarma" options="-parameters" />
       <module name="microservicio-config" options="-parameters" />
+      <module name="microservicio-email" options="-parameters" />
       <module name="microservicio-eureka" options="-parameters" />
       <module name="microservicio-gateway" options="-parameters" />
       <module name="microservicio-invernadero" options="-parameters" />

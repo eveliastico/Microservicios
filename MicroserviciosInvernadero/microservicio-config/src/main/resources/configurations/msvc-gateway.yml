@@ -22,3 +22,7 @@ spring:
           uri: http://localhost:8091
           predicates:
             - Path=/api/invernadero/**
+        - id: alarmas
+          uri: http://localhost:8093
+          predicates:
+            - Path=/api/alarma/**

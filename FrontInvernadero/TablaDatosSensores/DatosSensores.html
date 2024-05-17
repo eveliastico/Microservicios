@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistros Sensores</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.js"></script>
+    <link rel="stylesheet" href="DatosSensores.css">
+    <script>
+        window.jsPDF = window.jspdf.jsPDF;
+    </script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Visualización de Datos</h1>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Humedad</th>
+                    <th>Temperatura</th>
+                    <th>Fecha y Hora</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los datos se cargarán aquí dinámicamente -->
+            </tbody>
+        </table>
+        <div class="chart-container">
+            <canvas id="registros-chart"></canvas>
+        </div>
+        <button class="btnDescargar">Descargar PDF</button>
+        <button class="btnDescargarGraficas">Descargar Graficas</button>
+    </div>
+
+    <script src="DatosSensores.js"></script>
+</body>
+
+</html>
