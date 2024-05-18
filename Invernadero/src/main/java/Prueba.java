@@ -25,11 +25,11 @@ public class Prueba {
             connection = factory.newConnection();
             channel = connection.createChannel();
 
-            channel.queueDeclare(QUEUE_NAME_1, false, false, false, null);
-            channel.queueBind(QUEUE_NAME_1, EXCHANGE_NAME, "");
-
-            channel.queueDeclare(QUEUE_NAME_2, false, false, false, null);
-            channel.queueBind(QUEUE_NAME_2, EXCHANGE_NAME, "");
+//            channel.queueDeclare(QUEUE_NAME_1, false, false, false, null);
+//            channel.queueBind(QUEUE_NAME_1, EXCHANGE_NAME, "");
+//
+//            channel.queueDeclare(QUEUE_NAME_2, false, false, false, null);
+//            channel.queueBind(QUEUE_NAME_2, EXCHANGE_NAME, "");
 
 
             System.out.println("Colas RabbitMQ creadas exitosamente.");

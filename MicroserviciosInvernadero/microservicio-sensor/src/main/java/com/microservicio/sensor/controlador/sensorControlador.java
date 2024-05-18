@@ -58,6 +58,4 @@ public class sensorControlador {
         return ResponseEntity.ok(sensorServicio.findByIdInvernadero(idInvernadero));
     }
 
-
-
 }
